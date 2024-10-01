@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./components/Header/Header";
+import Header from "./components/Header/Header";
+import Basic from "./components/Basic/Basic";
+import Basic_bottom from "./components/Basic_bottom/Basic_bottom";
+import Footer from "./components/Footer/Footer";
+import Flickity_сarousel from "./components/Flickity/Flickity_сarousel";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Wrapper">
+      <Header></Header>
+      <Flickity_сarousel></Flickity_сarousel>
+      <Basic></Basic>
+      <Basic_bottom></Basic_bottom>
+      <Footer></Footer>
     </div>
   );
 }

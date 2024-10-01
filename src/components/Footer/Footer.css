@@ -1,0 +1,379 @@
+.footer_black {
+  background: url("/src/shopImg/footer/black_footer.png") no-repeat center
+    center;
+  width: 100%;
+  height: 857px;
+  background-size: cover;
+  position: relative;
+}
+
+.footer_black_size {
+  position: relative;
+  height: 807px;
+}
+
+.footer_black_left {
+  width: 650px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.access_contacts {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+
+.footer_black_size {
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.logo_logo {
+  display: flex;
+  margin-top: 234px;
+  align-items: center;
+}
+.access_app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 31px;
+}
+.app_top {
+  display: flex;
+  align-items: center;
+}
+.app_bottom {
+  display: flex;
+  align-items: center;
+}
+.logo_img {
+  width: 57px;
+  height: 55px;
+}
+
+.logo_title_img {
+  width: 247px;
+  height: 66px;
+  margin-left: 15px;
+}
+.app_img_apple {
+  width: 26.62px;
+  height: 31.94px;
+}
+
+.app_img {
+  width: 26px;
+  height: 26px;
+}
+.quarcode {
+  width: 116px;
+  height: 116px;
+}
+
+.contacts {
+  margin-top: 31px;
+}
+.app_contacts {
+  display: flex;
+  margin-top: 18px;
+}
+
+.app_bottom {
+  margin-top: 15px;
+}
+
+.loading {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #bdbdbd;
+  margin-top: 10px;
+}
+.loading_time {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #bdbdbd;
+}
+
+.app_title_left {
+  font-size: 16px;
+  line-height: 25px;
+}
+.app_title_right {
+  font-size: 16px;
+  line-height: 25px;
+}
+.app_name {
+  margin-left: 20px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 254px;
+  background: #000000;
+  width: 650px;
+  height: 48px;
+  border: 1px solid #ffffff33;
+}
+
+.footer_black_right {
+  width: 650px;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+.newsletter_left {
+  display: flex;
+  align-items: center;
+  margin-left: 22px;
+}
+.sub_newsletter {
+  margin-left: 15px;
+
+  font-size: 16px;
+}
+
+.sub_newsletter span {
+  color: red;
+}
+.message_gray {
+  width: 20px;
+  height: 16px;
+}
+.border_grey_top {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #ffffff33;
+  position: absolute;
+  margin-top: 325px;
+}
+.border_grey_bottom {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #ffffff33;
+  position: absolute;
+  margin-top: 620px;
+}
+
+.newsletter_right {
+  width: 22px;
+  height: 19px;
+  margin-right: 22px;
+}
+
+.footer_nav {
+  margin-left: 70px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_nav_link {
+  font-size: 12px;
+  line-height: 14.4px;
+  color: #bdbdbd;
+}
+.footer_item {
+  padding: 0;
+}
+
+.footer_nav_item {
+  margin-top: 6px;
+}
+
+.social_media_left {
+  width: 211.98px;
+  height: 22.57px;
+}
+.license_right {
+  color: #bdbdbd;
+  line-height: 14.4px;
+}
+.social_media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social_media_img {
+  width: 20.57px;
+  height: 20.57px;
+  margin-right: 27px;
+}
+
+.social_media_left {
+  display: flex;
+}
+.social_media_footer {
+  width: 100%;
+  position: absolute;
+  margin-top: 800px;
+}
+
+.mail_block {
+  width: 48px;
+  height: 50px;
+  background-color: #000000;
+  position: absolute;
+  top: 25px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mail_block img {
+  width: 14px;
+  height: 11px;
+}
+.subscription_social_networks {
+  display: none;
+}
+
+.name_social_networks {
+  font-size: 26px;
+  line-height: 31.2px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.invisible_block {
+  margin-top: 52px;
+  color: #ffffff;
+  text-align: center;
+}
+.sub {
+  font-size: 16px;
+  line-height: 19.2px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 88px;
+}
+.sport_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sport_img img {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.logotype_social_networks img {
+  margin-top: 21px;
+  margin-left: 25px;
+}
+.logotype_social_networks {
+  text-align: center;
+}
+
+@media (max-width: 1260px) {
+  .social_media_footer {
+    display: none;
+  }
+  .newsletter {
+    display: none;
+  }
+  .border_grey {
+    display: none;
+  }
+  .app_title_left {
+    display: none;
+  }
+  .contacts_title {
+    display: none;
+  }
+  .app_title_right {
+    margin-left: 25px;
+  }
+
+  .logo_logo {
+    display: none;
+  }
+
+  .footer_nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  .border_grey_top {
+    display: none;
+  }
+  .border_grey_bottom {
+    display: none;
+  }
+  .footer_nav {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .access_contacts {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 780px) {
+  .footer_black {
+    height: 1650px;
+  }
+  .newsletter {
+    display: none;
+  }
+  .border_grey {
+    display: none;
+  }
+  .app_title_left {
+    display: none;
+  }
+  .contacts_title {
+    display: none;
+  }
+  .app_title_right {
+    margin-left: 25px;
+  }
+  .company {
+    margin-top: 43px;
+  }
+  .boardriders {
+    margin-top: 43px;
+  }
+
+  .logo_logo {
+    display: none;
+  }
+  .subscription_social_networks {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-top: 20px;
+  }
+
+  .footer_nav {
+    display: block;
+  }
+  .border_grey_top {
+    position: absolute;
+    margin-top: 255px;
+  }
+  .border_grey_bottom {
+    display: none;
+  }
+  .footer_black_right {
+    width: 200px;
+    left: 0;
+    top: 800px;
+  }
+  .footer_black_left {
+    width: 300px;
+    left: 0;
+    top: 550px;
+  }
+}

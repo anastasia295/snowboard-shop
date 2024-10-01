@@ -1,0 +1,347 @@
+.blogs_footer_content {
+  background-color: black;
+  margin-top: 100px;
+}
+
+.blogs_content {
+  height: 645px;
+}
+
+.blogs_jacket img {
+  max-width: 100%;
+  width: 950px;
+  height: 645px;
+}
+
+.blogs_left {
+  position: relative;
+}
+
+.blogs {
+  width: 100%;
+  display: flex;
+}
+.play_blogs img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 45%;
+  left: 45%;
+}
+
+.blogs_excerption_aphorism {
+  font-size: 14px;
+  line-height: 25px;
+  text-align: left;
+  color: #828282;
+}
+.blogs_excerption_aphorism2 {
+  font-size: 14px;
+  line-height: 25px;
+  text-align: left;
+  color: #828282;
+}
+.blogs_right {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #ffffff;
+}
+.title_blogs {
+  font-size: 21px;
+  line-height: 35px;
+}
+
+.blogs_right a {
+  font-size: 14px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.link_underline {
+  text-decoration: underline solid #ffffff;
+  text-underline-offset: 3px;
+}
+
+.name_blogs {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  width: 340px;
+}
+.blogs_nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+.blogs_excerption {
+  font-size: 14px;
+  line-height: 25px;
+  color: #828282;
+  margin-top: 40px;
+  width: 450px;
+}
+
+.continuation {
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.border_continuation {
+  width: 30px;
+  border: 1px solid #f2f2f2;
+}
+.continuation a {
+  margin-left: 10px;
+}
+
+.loyalty_program {
+  margin-top: 47px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.loyalty_program_left {
+  position: relative;
+}
+
+.loyalty_program_left img {
+  max-width: 100%;
+  width: 668px;
+  height: 789px;
+}
+
+.loyalty_program_right img {
+  max-width: 100%;
+  width: 668px;
+  height: 789px;
+}
+
+.loyalty_program_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loyalty_program_brand img {
+  width: 158px;
+  height: 75px;
+}
+
+.loyalty_program_letter img {
+  width: 71px;
+  height: 57px;
+}
+.loyalty_program_title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-top: 24px;
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.loyalty_program_points {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.loyalty_program_button {
+  width: 292px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  margin-top: 25px;
+}
+
+.loyalty_program_right {
+  position: relative;
+}
+
+.loyalty_program_letter img {
+  max-width: 100%;
+  width: 71px;
+  height: 51px;
+}
+
+.loyalty_program_button {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  width: 292px;
+  height: 50px;
+}
+
+.loyalty_program_input {
+  position: relative;
+}
+
+.loyalty_input {
+  background-color: #ffffff;
+  width: 298px;
+  height: 50px;
+  margin-top: 25px;
+  color: #000000;
+  padding-left: 35px;
+  padding-right: 150px;
+}
+::placeholder {
+  color: #000000;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: left;
+}
+.inp_letter img {
+  width: 20px;
+  height: 16px;
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+}
+
+.inp_telegram img {
+  width: 22px;
+  height: 19px;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+.all_articles {
+  display: none;
+}
+.new_articles {
+  display: none;
+}
+
+.play_blogs2 {
+  display: none;
+}
+
+.loyalty_additionally {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+}
+
+@media (max-width: 980px) {
+  .blogs_jacket {
+    display: none;
+  }
+  .name_blogs {
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 370px;
+  }
+  .blogs_excerption_aphorism2 {
+    display: none;
+  }
+  .blogs_excerption_aphorism {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .blogs_nav {
+    display: none;
+  }
+  .blogs_excerption {
+    margin-top: 10px;
+  }
+  .continuation {
+    display: none;
+  }
+  .all_articles {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    margin-top: 34px;
+    text-align: center;
+  }
+  .new_articles {
+    margin-top: 40px;
+    display: block;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .blogs {
+    height: 496px;
+    position: relative;
+  }
+  .play_blogs2 {
+    display: block;
+  }
+  .play_blogs2 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .play_blogs {
+    display: none;
+  }
+  .loyalty_program {
+    margin-top: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .main_picture_left img {
+    max-width: 100%;
+    width: 530px;
+    height: 669px;
+  }
+  .loyalty_program_right {
+    margin-top: 20px;
+  }
+
+  .main_picture_right img {
+    max-width: 100%;
+    width: 530px;
+    height: 669px;
+  }
+  .loyalty_program_title {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  ::placeholder {
+    color: #828b8d;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+  }
+  .blogs_content {
+    height: 716px;
+  }
+}
